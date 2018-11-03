@@ -1,0 +1,66 @@
+@font-face {
+
+    font-family: 'UrbanCalligraphy';
+    src: url('UrbanCalligraphy.ttf');
+}
+
+
+#slider
+{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    background: black;
+    margin-left: 25%;
+}
+
+h1
+{
+    margin-left: 40%;
+    font-family: UrbanCalligraphy;
+    font-size: 500%;
+}
+
+#slider .slides
+{
+    display: block;
+    width: 6000px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#slider .slide
+{
+    float: left;
+    list-style-type: none;
+    width: 800px;
+    height: 500px;
+}
+
+
+
+.prev
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 520px;
+    background: url("fleche.svg.png");
+    background-repeat: no-repeat;
+}
+
+.next
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: 520px;
+    background: url("fleche2.svg.png") right top;
+    background-repeat: no-repeat;
+}
